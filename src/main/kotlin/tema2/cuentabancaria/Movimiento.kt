@@ -1,8 +1,10 @@
+package tema2.cuentabancaria
+
 import java.text.SimpleDateFormat
 import java.util.*
 
-class Movimiento(val id: Int, val tipo: String, val cantidad: Double) {
-    val fecha: String = obtenerFechaActual()
+class Movimiento(private val id: Int, private val tipo: String, val cantidad: Double) {
+    private val fecha: String = obtenerFechaActual()
 
     private fun obtenerFechaActual(): String {
         val sdf = SimpleDateFormat("dd/MM/yyyy")

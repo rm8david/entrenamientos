@@ -1,7 +1,5 @@
 package tema2.cuentabancaria
 
-import Movimiento
-
 class CuentaBancaria(private val iban: String, private val titular: String) {
     private var saldo: Double = 0.0
     private val movimientos: MutableList<Movimiento> = mutableListOf()
