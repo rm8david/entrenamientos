@@ -35,7 +35,7 @@ fun main() {
     println(resultado)
 }
 
-//Fuera de la funcion main definimos las funciones auxiliares
+//Fuera de la funcion tema2.cuentabancaria.main definimos las funciones auxiliares
 
 // Función para convertir la opción numérica a texto mediante la estructura when
 fun opcionAString(opcion: Int?): String {
