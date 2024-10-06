@@ -11,7 +11,6 @@ val pedro = CuentaBancaria(77898,"pedro",30000.4)
     pedro.saldo()
     pedro.retirada(50.3)
     pedro.saldo()
-    pedro.
 
 }
 
