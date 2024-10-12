@@ -6,7 +6,7 @@ class Movimientos(val id: Int, val tipo: String, val cantidad: Double) {
     private val fecha: String = obtenerFechaActual()
 
     private fun obtenerFechaActual(): String {
-        val sdf = SimpleDateFormat("dd/MM/yyyy")
+        val sdf = SimpleDateFormat("dd/MM/yyyy hh:mm:ss")
         return sdf.format(Date())
     }
 
